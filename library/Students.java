@@ -22,9 +22,9 @@ public class Students {
     }
 
     void show() {
-        System.out.println("Student Name\t\tReg No.");
+        System.out.println("Name\t\tReg No.");
         for (int i = 0; i < k; i++) {
-            System.out.println(s[i].name + "\t\t" + s[i].reg);
+            System.out.println(s[i].name + "\t\t\t" + s[i].reg);
         }
     }
 
